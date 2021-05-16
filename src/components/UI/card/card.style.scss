@@ -1,0 +1,21 @@
+.card {
+  max-width: 60%;
+  padding: 1rem;
+  margin: 0 auto;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 14px;
+  background-color: white;
+  margin-top: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+.error-text {
+  display: flex;
+  justify-content: center;
+  color: red;
+}
