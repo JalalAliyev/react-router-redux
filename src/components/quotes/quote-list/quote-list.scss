@@ -1,0 +1,28 @@
+.list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.sorting {
+  padding-bottom: 1rem;
+  border-bottom: 3px solid #b2d4d4;
+  margin-bottom: 2rem;
+
+  button {
+    width: 180px;
+    padding: 13px 15px;
+    font-size: 18px;
+    border: 1px solid #130f40;
+    border-radius: 3px;
+    color: #1b1464;
+    cursor: pointer;
+    transition-duration: .4s;
+
+    &:hover {
+      background-color: #0652dd;
+      color: white;
+      transform: translateY(-2px);
+    }
+  }
+}
